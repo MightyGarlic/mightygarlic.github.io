@@ -6,7 +6,7 @@ const Index = () => {
       {/* Header */}
       <header className="border-b border-border">
         <div className="container max-w-3xl mx-auto px-6 py-6">
-          <h2 className="text-xl font-serif font-bold text-foreground">Announcement</h2>
+          <h2 className="text-xl font-bold text-foreground">Announcement</h2>
         </div>
       </header>
 
@@ -14,7 +14,7 @@ const Index = () => {
       <main className="container max-w-3xl mx-auto px-6 py-12">
         <article className="space-y-8">
           {/* Title */}
-          <h1 className="text-5xl md:text-6xl font-serif font-bold text-foreground leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
             Important Announcement
           </h1>
 
@@ -32,7 +32,7 @@ const Index = () => {
               analyzed our progress, and made thoughtful decisions about the path forward.
             </p>
 
-            <h2 className="text-3xl font-serif font-bold text-foreground mt-12 mb-4">
+            <h2 className="text-3xl font-bold text-foreground mt-12 mb-4">
               What This Means
             </h2>
 
@@ -48,7 +48,7 @@ const Index = () => {
               <li>Clear communication throughout the transition</li>
             </ul>
 
-            <h2 className="text-3xl font-serif font-bold text-foreground mt-12 mb-4">
+            <h2 className="text-3xl font-bold text-foreground mt-12 mb-4">
               Next Steps
             </h2>
 
