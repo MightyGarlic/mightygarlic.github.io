@@ -3,13 +3,6 @@ import { Separator } from "@/components/ui/separator";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border">
-        <div className="container max-w-3xl mx-auto px-6 py-6">
-          <h2 className="text-xl font-bold text-foreground">Announcement</h2>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="container max-w-3xl mx-auto px-6 py-12">
         <article className="space-y-8">
@@ -68,8 +61,7 @@ const Index = () => {
           {/* Footer note */}
           <div className="bg-muted/50 p-6 rounded border border-border">
             <p className="text-sm text-muted-foreground">
-              For questions or additional information, please reach out to our team. 
-              We're committed to transparency and open communication.
+              Footnote!
             </p>
           </div>
         </article>
@@ -79,7 +71,7 @@ const Index = () => {
       <footer className="border-t border-border mt-20">
         <div className="container max-w-3xl mx-auto px-6 py-8">
           <p className="text-sm text-muted-foreground text-center">
-            © 2025 — Built with care and attention to detail
+            Easter Egg!
           </p>
         </div>
       </footer>
