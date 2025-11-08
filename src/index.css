@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* 
+Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
 
@@ -25,10 +26,11 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 13%;
 
     --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
+    --muted-foreground: 0 0% 63%;
 
     --accent: 210 50% 45%;
     --accent-foreground: 0 0% 100%;
+    --accent-background: 30 6% 25%;
 
     --destructive: 0 65% 51%;
     --destructive-foreground: 0 0% 100%;
@@ -40,8 +42,8 @@ All colors MUST be HSL.
     --radius: 0.25rem;
 
     /* Typography */
-    --font-serif: 'Georgia', 'Times New Roman', serif;
-    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    --font-serif: 'EB Garamond', 'Georgia', 'Times New Roman', serif;
+    --font-sans: 'Quicksand', 'Mallanna', 'Inter', 'Helvetica', 'Tahoma', 'Verdana', 'Arial', 'Segoe UI', sans-serif;
   }
 
   .dark {
@@ -61,7 +63,7 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
+    --muted-foreground: 0 0% 75%;
 
     --accent: 210 50% 55%;
     --accent-foreground: 0 0% 100%;
@@ -88,9 +90,13 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.02em;
+  }
+
+  a {
+    color: hsl(26, 100%, 56.5%);
   }
 }
